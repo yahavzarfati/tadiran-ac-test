@@ -4,8 +4,8 @@ const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
 const AirConditionerSferaAccessory = require('./lib/AirConditionerSferaAccessory');
 
 
-const PLUGIN_NAME = 'homebridge-tadiran-ac';
-const PLATFORM_NAME = 'TadiranAC';
+const PLUGIN_NAME = 'homebridge-tadiran-ac-extended';
+const PLATFORM_NAME = 'TadiranACExtended';
 
 const CLASS_DEF = {
 	default: AirConditionerAccessory,
