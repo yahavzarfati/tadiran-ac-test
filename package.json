@@ -1,18 +1,18 @@
 {
-  "name": "homebridge-tadiran-ac",
-  "version": "1.1.1",
+  "name": "homebridge-tadiran-ac-extended",
+  "version": "1.0.0",
   "description": "Homebridge plugin for Tadiran AC - Controlled by the Tuya Smart app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitaybz/homebridge-tadiran-ac.git"
+    "url": "git+https://github.com/ShayShahar/homebridge-tadiran-ac.git"
   },
-  "author": "nitaybz",
+  "author": "Shay Shahar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-tadiran-ac/issues"
+    "url": "https://github.com/ShayShahar/homebridge-tadiran-ac//issues"
   },
-  "homepage": "https://github.com/nitaybz/homebridge-tadiran-ac#readme",
+  "homepage": "https://github.com/ShayShahar/homebridge-tadiran-ac/#readme",
   "dependencies": {
     "async": "^3.1.0"
   },
@@ -20,7 +20,8 @@
     "homebridge-plugin",
     "homebridge",
     "homebridge-tadiran-ac",
-    "tadiran"
+    "tadiran",
+    "sfera"
   ],
   "engines": {
     "homebridge": ">=0.4.4",
