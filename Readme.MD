@@ -1,7 +1,9 @@
 <img src="branding/tadiran_homebridge.png" width="500px">
 
 
-# homebridge-tadiran-ac
+# homebridge-tadiran-ac-extended
+
+This plugin is an extended version of homebridge-tadiran-ac by nitaybz that supports additional models.
 
 [![Downloads](https://img.shields.io/npm/dt/homebridge-tadiran-ac.svg?color=critical)](https://www.npmjs.com/package/homebridge-tadiran-ac)
 [![Version](https://img.shields.io/npm/v/homebridge-tadiran-ac)](https://www.npmjs.com/package/homebridge-tadiran-ac)<br>
