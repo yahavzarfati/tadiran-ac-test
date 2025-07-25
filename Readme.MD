@@ -15,6 +15,10 @@
 
 
 #### Supported:
+
+Tadiran Sfera
+<br><img src="branding/sfera.jpg" width="160px">
+
 Tadiran IoT
 <br><img src="branding/device.jpg" width="160px">
 
