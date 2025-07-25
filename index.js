@@ -1,12 +1,15 @@
 const TuyaAccessory = require('./lib/TuyaAccessory');
 const TuyaDiscovery = require('./lib/TuyaDiscovery');
 const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
+const AirConditionerSferaAccessory = require('./lib/AirConditionerSferaAccessory');
+
 
 const PLUGIN_NAME = 'homebridge-tadiran-ac';
 const PLATFORM_NAME = 'TadiranAC';
 
 const CLASS_DEF = {
-	airconditioner: AirConditionerAccessory
+	default: AirConditionerAccessory,
+	sfera: AirConditionerSferaAccessory
 };
 
 let Characteristic, PlatformAccessory, Service, Categories, UUID;
@@ -148,7 +151,7 @@ class TadiranAC {
 
 	addAccessory(device) {
 		const deviceConfig = device.context;
-		const type = 'airconditioner';
+		const type = device.type = device.context.model || 'default';
 
 		const Accessory = CLASS_DEF[type];
 

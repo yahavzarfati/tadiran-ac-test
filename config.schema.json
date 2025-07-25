@@ -32,6 +32,13 @@
                             "type": "string",
                             "required": true
                         },
+                        "model": {
+                            "title": "Model Type",
+                            "description": "Select the model of your Tadiran AC",
+                            "type": "string",
+                            "enum": ["default", "sfera"],
+                            "default": "default"
+                        },
                         "minTemperature": {
                             "title": "Minimum Temperature",
                             "description": "Minimum Temperature to show in HomeKit",
