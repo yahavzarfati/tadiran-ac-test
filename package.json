@@ -22,7 +22,8 @@
     "homebridge-tadiran-ac",
     "homebridge-tadiran-ac-extended",
     "tadiran",
-    "sfera"
+    "sfera",
+    "apollo"
   ],
   "engines": {
     "homebridge": ">=0.4.4",
