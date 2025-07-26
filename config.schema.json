@@ -2,8 +2,8 @@
     "pluginAlias": "TadiranACExtended",
     "pluginType": "platform",
     "singular": true,
-    "headerDisplay": "Homebridge plugin for Tadiran IoT AC units controlled by the Tuya",
-    "footerDisplay": "Created by @nitaybz",
+    "headerDisplay": "Homebridge plugin for Tadiran IoT AC units controlled by the Tuya.",
+    "footerDisplay": "Created by @ShayShahar",
     "schema": {
         "type": "object",
         "properties": {
@@ -36,8 +36,8 @@
                             "title": "Model Type",
                             "description": "Select the model of your Tadiran AC",
                             "type": "string",
-                            "enum": ["mini-central", "sfera", "apollo"],
-                            "default": "mini-central"
+                            "enum": ["Mini-Central", "Sfera", "Apollo"],
+                            "default": "Mini-Central"
                         },
                         "minTemperature": {
                             "title": "Minimum Temperature",
