@@ -151,7 +151,7 @@ class TadiranAC {
 
 	addAccessory(device) {
 		const deviceConfig = device.context;
-		const type = device.type = device.context.model || 'default';
+		const type = device.type = device.context.model || 'mini-central';
 
 		const Accessory = CLASS_DEF[type];
 
