@@ -21,7 +21,7 @@ Tadiran Apollo
 Tadiran Sfera
 <br><img src="branding/sfera.jpg" width="160px">
 
-Tadiran IoT
+Tadiran - Mini Central
 <br><img src="branding/device.jpg" width="160px">
 
 Integration is known to work both with Tadiran app and Tuya Smart app, but will probably work with and Tuya clone apps.
