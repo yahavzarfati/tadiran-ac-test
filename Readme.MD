@@ -13,13 +13,10 @@ This plugin is an extended version of homebridge-tadiran-ac by nitaybz that supp
 
 [Homebridge](https://github.com/nfarina/homebridge) plugin for Tadiran AC units controlled by the Tuya
 
-<img src="branding/product.jpg" width="300px">
-
-
 #### Supported:
 
 Tadiran Apollo
-<br><img src="branding/apollo.jpg" width="160px">
+<br><img src="branding/apollo.gif" width="160px">
 
 Tadiran Sfera
 <br><img src="branding/sfera.jpg" width="160px">
