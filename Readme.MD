@@ -18,6 +18,9 @@ This plugin is an extended version of homebridge-tadiran-ac by nitaybz that supp
 
 #### Supported:
 
+Tadiran Apollo
+<br><img src="branding/apollo.jpg" width="160px">
+
 Tadiran Sfera
 <br><img src="branding/sfera.jpg" width="160px">
 
