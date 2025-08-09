@@ -36,7 +36,7 @@
                             "title": "Model Type",
                             "description": "Select the model of your Tadiran AC",
                             "type": "string",
-                            "enum": ["Mini-Central", "Sfera", "Apollo"],
+                            "enum": ["Mini-Central", "Sfera", "Apollo", "Mini Central Wave 50"],
                             "default": "Mini-Central"
                         },
                         "minTemperature": {
