@@ -1,18 +1,19 @@
 {
   "name": "homebridge-tadiran-ac-new",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Homebridge plugin for Tadiran AC - Controlled by the Tuya Smart app",
   "main": "index.js",
+  "displayName": "Homebridge Tadiran AC (Wave 50)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShayShahar/homebridge-tadiran-ac.git"
+    "url": "git+https://github.com/yahavzarfati/tadiran-ac-test.git"
   },
-  "author": "Shay Shahar",
+  "author": "Yahav Zarfati",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ShayShahar/homebridge-tadiran-ac//issues"
+    "url": "https://github.com/yahavzarfati/tadiran-ac-test/issues"
   },
-  "homepage": "https://github.com/ShayShahar/homebridge-tadiran-ac/#readme",
+  "homepage": "https://github.com/yahavzarfati/tadiran-ac-test#readme",
   "dependencies": {
     "async": "^3.1.0"
   },
@@ -22,12 +23,14 @@
     "homebridge-tadiran-ac",
     "homebridge-tadiran-ac-extended",
     "tadiran",
+    "TADIRAN",
+    "Tadiran",
     "sfera",
     "apollo"
   ],
   "engines": {
-    "homebridge": ">=0.4.4",
-    "node": ">=10.17.0"
+    "homebridge": ">=1.6.0",
+    "node": ">=16.0.0"
   },
   "devDependencies": {
     "eslint": "^7.1.0"
@@ -37,18 +40,5 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "funding": [
-    {
-      "type": "paypal",
-      "url": "https://paypal.me/nitaybz"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/nitaybz"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/nitaybz"
-    }
-  ]
+  "funding": []
 }

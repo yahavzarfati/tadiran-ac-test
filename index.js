@@ -2,7 +2,7 @@ const TuyaAccessory = require('./lib/TuyaAccessory');
 const TuyaDiscovery = require('./lib/TuyaDiscovery');
 const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
 
-const PLUGIN_NAME = 'homebridge-tadiran-ac-extended';
+const PLUGIN_NAME = 'homebridge-tadiran-ac-new';
 const PLATFORM_NAME = 'TadiranACExtended';
 
 const CLASS_DEF = {
